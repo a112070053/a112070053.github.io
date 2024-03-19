@@ -11,3 +11,10 @@ text-indent: 2em;
 span.blueblue{
 color:blue；
 }
+.expedu_icon{
+    color: blue;
+}
+.expedu_icon:hover {
+    background-color: blue;
+    color: aliceblue;
+}
