@@ -1,13 +1,67 @@
 {
-letter-spacing: 0.8px；
-line-height:1.5em；
+letter-spacing: 0.8px;
+line-height:1.5em;
 }
-p.redred{
-color: #f90000;
+p#redred{
+color: rgb(82, 69, 69);
 font-size: 40px;
 text-align: left;
 text-indent: 2em;
+background-color:rgb(149, 170, 246);
+line-height: 1.5em;
+border: 5px solid;
+border-color: rgb(107, 89, 91);
+background-image: url(../assets/img/send.jpg);
+
 }
 span.blueblue{
-color:blue；
+color:rgb(175, 144, 208);
+}
+.expedu_icon{
+    color:blue
+}
+.expedu_icon:hover{
+    background-color: blue;
+    color: white;
+}
+.bg-primary{
+    background-color: rgb(66, 22, 128) !important;
+    background-image: url(../assets/img/sky2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#redred{
+    padding: 20px;
+    border: 10px solid orchid;
+    border-radius: 5px;
+    margin: 50px auto;
+    width: 80%;
+
+
+    background-color: rgb(228, 201, 253);
+    background-image: url();
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Noto Serif TC', sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+}
+ol.mylist.li:hover {
+    background-color: blueviolet;
+    color: azure;
+}
+/*table.mytable th{
+    width: 80%;
+    background-color: aqua;
+    color: rgb(58, 58, 58);
+    border: 10px solid rgb(255, 22, 255);
+}
+table.mytable td{
+    text-align: center;
+    border: 10px solid rebeccapurple;
+    border-collapse: separate;
+}
+table.mytable tr:nth-child(even){
+    background-color: cornflowerblue;
 }
