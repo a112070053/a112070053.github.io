@@ -1,8 +1,8 @@
 {
 letter-spacing: 0.8px;
-line-height:1.5em;
+line-height:1.8em;
 }
-p#redred{
+span.redred{
 color: rgb(82, 69, 69);
 font-size: 40px;
 text-align: left;
@@ -12,13 +12,16 @@ line-height: 1.5em;
 border: 5px solid;
 border-color: rgb(107, 89, 91);
 background-image: url(../assets/img/send.jpg);
+}
 
+span.purple{
+    color: #6a43df;
 }
 span.blueblue{
-color:rgb(175, 144, 208);
+color:#B197FC;
 }
 .expedu_icon{
-    color:blue
+    color:rgb(248, 0, 182)
 }
 .expedu_icon:hover{
     background-color: blue;
