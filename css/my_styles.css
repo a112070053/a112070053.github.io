@@ -1,7 +1,4 @@
-{
-letter-spacing: 0.8px;
-line-height:1.8em;
-}
+
 span.redred{
 color: rgb(82, 69, 69);
 font-size: 40px;
@@ -10,7 +7,7 @@ text-indent: 2em;
 background-color:rgb(149, 170, 246);
 line-height: 1.5em;
 border: 5px solid;
-border-color: rgb(107, 89, 91);
+border-color: rgb(98, 0, 95);
 background-image: url(../assets/img/send.jpg);
 }
 
@@ -53,6 +50,15 @@ color:#B197FC;
 ol.mylist.li:hover {
     background-color: blueviolet;
     color: azure;
+}
+.overflowtest{
+    background-color: #ae93ffa0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    overflow: auto;
+    height: 100px;
 }
 /*table.mytable th{
     width: 80%;
