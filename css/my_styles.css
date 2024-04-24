@@ -2,15 +2,16 @@
 span.redred{
 color: rgb(255, 255, 255);
 font-size: 50px;
-text-align: left;
+text-align: center;
 text-indent: 2em;
 background-color:#916ef1;
 line-height: 1.5em;
 border: 5px solid;
 border-color: rgb(163, 0, 158);
-width: 500px;
+width: auto ;
 padding-top: 160px;
-padding-bottom: 140px;
+padding-bottom: 130px;
+margin-bottom: 150px;
 }
 span.title{
     color: #B197FC;
