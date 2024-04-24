@@ -1,21 +1,25 @@
 
 span.redred{
-color: rgb(82, 69, 69);
-font-size: 40px;
+color: rgb(64, 0, 132);
+font-size: 50px;
 text-align: left;
 text-indent: 2em;
-background-color:rgb(149, 170, 246);
+background-color:#6a44a1;
 line-height: 1.5em;
 border: 5px solid;
-border-color: rgb(98, 0, 95);
+border-color: rgb(129, 3, 125);
 background-image: url(../assets/img/send.jpg);
 }
-
+span.title{
+    color: #B197FC;
+    font-size: 80px;
+}
 span.purple{
-    color: #6a43df;
+    color: #ac91fe;
 }
 span.blueblue{
 color:#B197FC;
+font-size: 30px;
 }
 .expedu_icon{
     color:rgb(248, 0, 182)
@@ -59,6 +63,10 @@ ol.mylist.li:hover {
     margin: 30px auto;
     overflow: auto;
     height: 100px;
+}
+.bgcolor{
+    background-color: hsl(282, 100%, 97%)
+    
 }
 /*table.mytable th{
     width: 80%;
