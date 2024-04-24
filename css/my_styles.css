@@ -1,14 +1,16 @@
 
 span.redred{
-color: rgb(64, 0, 132);
+color: rgb(255, 255, 255);
 font-size: 50px;
 text-align: left;
 text-indent: 2em;
-background-color:#6a44a1;
+background-color:#916ef1;
 line-height: 1.5em;
 border: 5px solid;
-border-color: rgb(129, 3, 125);
-background-image: url(../assets/img/send.jpg);
+border-color: rgb(255, 39, 248);
+width: 100%;
+padding-top: 180px;
+padding-bottom: 150px;
 }
 span.title{
     color: #B197FC;
@@ -66,7 +68,7 @@ ol.mylist.li:hover {
 }
 .bgcolor{
     background-color: hsl(282, 100%, 97%)
-    
+
 }
 /*table.mytable th{
     width: 80%;
