@@ -1,32 +1,32 @@
 
-/*span.redred{
-color: rgb(255, 255, 255);
-font-size: 50px;
-text-align: center;
-text-indent: 2em;
-background-color:#916ef1;
-background-size: contain;
-line-height: 1.5em;
-border: 5px solid;
-border-color: rgb(123, 123, 123);
-width: auto ;
-padding-top: 160px;
-padding-bottom: 130px;
-margin-bottom: 150px;
-object-fit: scale-down
-}
-*/
-.object-fit-container{
-width: 500px;
-height: 300px;
-img {
-object-fit: scale-down;   
-width: 300px;
-height:300px;
-margin: auto;
+.redred{
+    padding: 50px;
+    border: 10px solid rgb(138, 52, 220);
+    border-radius: 5px;
+    margin: 40px 50px 0px 0px;
+    background-color: #cdbcff;
+    background-image: url(../assets/img/rauuu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; 
+    font-size: 40px;
+    text-align:left;
+    margin: 30px auto;
+    height: 300px;
 
 }
+/*.object-fit-container{
+    text-align:center;
+    width: 300px;
+    height: 300px;
+    img {
+    object-fit: scale-down;   
+    width: 300px;
+    height:300px;
+    margin: auto;
 }
+}*/
 span.title{
     color: #B197FC;
     font-size: 80px;
@@ -35,8 +35,8 @@ span.purple{
     color: #ac91fe;
 }
 span.blueblue{
-color:#B197FC;
-font-size: 30px;
+    color:#B197FC;
+    font-size: 30px;
 }
 .expedu_icon{
     color:rgb(248, 0, 182)
@@ -80,6 +80,15 @@ ol.mylist.li:hover {
     margin: 30px auto;
     overflow: auto;
     height: 100px;
+}
+.overflowtest1{
+    background-color: #ae93ffa0;
+    color: white;
+    padding: 40px 90px;
+    border-radius: 15px;
+    margin: 40px auto;
+    overflow: clip;
+    height: 300px;
 }
 .bgcolor{
     background-color: hsl(282, 100%, 97%)
