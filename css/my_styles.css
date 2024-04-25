@@ -1,6 +1,6 @@
 
 .redred{
-    padding: 50px;
+    padding: 20px 50px 50px 50px;
     border: 10px solid rgb(138, 52, 220);
     border-radius: 5px;
     
@@ -84,8 +84,8 @@ ol.mylist.li:hover {
 .overflowtest1{
     background-color: #ae93ffa0;
     color: white;
-    padding: 40px 90px;
-    border-radius: 15px;
+    padding: 30px 30px;
+    border-radius: 10px;
     margin: 40px auto;
     overflow: auto;
     height: 300px;
