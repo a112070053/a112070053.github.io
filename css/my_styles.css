@@ -1,7 +1,8 @@
 
 .redred{
-    padding: 20px 50px 50px 50px;
-    border: 10px solid rgb(138, 52, 220);
+    padding-top: 400px;
+    padding-bottom: 100px;
+    border: 5px solid rgb(138, 52, 220);
     border-radius: 5px;
     
     background-color: #cdbcff;
@@ -86,7 +87,7 @@ ol.mylist.li:hover {
     color: white;
     padding: 30px 30px;
     border-radius: 10px;
-    margin: 40px auto;
+    margin: 50px auto;
     overflow: auto;
     height: 300px;
 }
