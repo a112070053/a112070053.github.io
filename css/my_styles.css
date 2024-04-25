@@ -3,7 +3,7 @@
     padding: 50px;
     border: 10px solid rgb(138, 52, 220);
     border-radius: 5px;
-    margin: 40px 50px 0px 0px;
+    
     background-color: #cdbcff;
     background-image: url(../assets/img/rauuu.png);
     background-size: contain;
@@ -13,7 +13,7 @@
     font-size: 40px;
     text-align:left;
     margin: 30px auto;
-    height: 300px;
+    overflow: auto;
 
 }
 /*.object-fit-container{
@@ -87,7 +87,7 @@ ol.mylist.li:hover {
     padding: 40px 90px;
     border-radius: 15px;
     margin: 40px auto;
-    overflow: clip;
+    overflow: auto;
     height: 300px;
 }
 .bgcolor{
