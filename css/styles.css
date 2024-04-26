@@ -161,7 +161,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: calc(2.475rem + 2.7vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -277,11 +277,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #B197FC(--bs-link-color);
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: 	#000000(--bs-link-hover-color);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -10955,19 +10955,21 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: #495057;
+  height: 5rem;
+  width: 5rem;
+  background-color:#495057;
   color: #fff;
   border-radius: 100%;
-  font-size: 1.5rem;
-  margin-right: 1.5rem;
+  font-size: 3.5rem;
+  margin-right: 2rem;
+  margin-top: 3rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color:#000;
+  color: #fff;
 }
 
 .dev-icons {

@@ -2,8 +2,8 @@
 .redred{
     padding-top: 400px;
     padding-bottom: 100px;
-    border: 5px solid rgb(138, 52, 220);
-    border-radius: 5px;
+    border: 3px solid rgb(138, 52, 220);
+    border-radius: 3px;
     
     background-color: #cdbcff;
     background-image: url(../assets/img/rauuu.png);
@@ -15,7 +15,7 @@
     text-align:left;
     margin: 30px auto;
     overflow: auto;
-
+    width:100%;
 }
 /*.object-fit-container{
     text-align:center;
@@ -39,11 +39,16 @@ span.blueblue{
     color:#B197FC;
     font-size: 30px;
 }
+.side{
+    text-align: right;
+    font-size: 15px;
+    color: #B197FC;
+}
 .expedu_icon{
-    color:rgb(248, 0, 182)
+    color:rgb(208, 106, 255)
 }
 .expedu_icon:hover{
-    background-color: blue;
+    background-color: rgb(197, 126, 255);
     color: white;
 }
 .bg-primary{
@@ -90,6 +95,7 @@ ol.mylist.li:hover {
     margin: 50px auto;
     overflow: auto;
     height: 300px;
+    
 }
 .bgcolor{
     background-color: hsl(282, 100%, 97%)
