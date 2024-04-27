@@ -1,21 +1,22 @@
 
 .redred{
-    padding-top: 400px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border: 3px solid rgb(138, 52, 220);
-    border-radius: 3px;
-    
+    border-radius: 5px;
     background-color: #cdbcff;
-    background-image: url(../assets/img/rauuu.png);
+    background-image: url(../assets/img/purple1.png);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     color: white; 
-    font-size: 40px;
-    text-align:left;
-    margin: 30px auto;
-    overflow: auto;
-    width:100%;
+    margin: 20px auto;
+    height: auto;
+    width: 100% auto;
+}
+.redred img{
+    max-width: 100%;
+    min-height: 100%;
 }
 /*.object-fit-container{
     text-align:center;
@@ -32,6 +33,9 @@ span.title{
     color: #B197FC;
     font-size: 80px;
 }
+span.title:hover{
+    font-size: 85px;
+}
 span.purple{
     color: #ac91fe;
 }
@@ -39,10 +43,37 @@ span.blueblue{
     color:#B197FC;
     font-size: 30px;
 }
+span.infor{
+    color: #B197FC;
+    font-size: 60px;
+}
+span.infor:hover{
+    font-size: 75px;
+}
 .side{
     text-align: right;
     font-size: 15px;
     color: #B197FC;
+}
+.aw{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 50px;
+    width: 55%;
+    color: white;
+    margin-right: 50% auto;
+    text-align: left;
+    font-size: 20px;
+    background-color: #ceb7f8;
+    border: 2px solid rgb(176, 113, 248);
+    border-bottom: 1.5px;
+    border-radius: 5px;
+}
+.aw:hover{
+    background-color: rgb(197, 160, 255);
+    color: white;
+    font-size: 30px;
 }
 .expedu_icon{
     color:rgb(208, 106, 255)
@@ -53,7 +84,7 @@ span.blueblue{
 }
 .bg-primary{
     background-color: rgb(66, 22, 128) !important;
-    background-image: url(../assets/img/sky2.jpg);
+    background-image: url(../assets/img/purple.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

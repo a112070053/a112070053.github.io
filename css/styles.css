@@ -2464,7 +2464,7 @@ textarea.form-control-lg {
   height: 100%;
   padding: 1rem 0.75rem;
   overflow: hidden;
-  text-align: start;
+  text-agn: start;
   text-overflow: ellipsis;
   white-space: nowrap;
   pointer-events: none;
@@ -3801,7 +3801,7 @@ textarea.form-control-lg {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
-  font-size: var(--bs-navbar-brand-font-size);
+  font-size: 10px(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
@@ -3840,6 +3840,7 @@ textarea.form-control-lg {
 .navbar-text a:hover,
 .navbar-text a:focus {
   color: var(--bs-navbar-active-color);
+  
 }
 
 .navbar-collapse {
@@ -10955,8 +10956,8 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
   background-color:#495057;
   color: #fff;
   border-radius: 100%;
@@ -10970,6 +10971,7 @@ p.lead {
 .social-icons .social-icon:hover {
   background-color:#000;
   color: #fff;
+  font-size: 5rem
 }
 
 .dev-icons {
