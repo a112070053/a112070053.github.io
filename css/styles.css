@@ -153,6 +153,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.725rem + 5.7vw);
+  color: #000;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -162,6 +163,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(2.475rem + 2.7vw);
+  color:#000000 ;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -278,7 +280,7 @@ sup {
 
 a {
   color: #B197FC(--bs-link-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: 	#000000(--bs-link-hover-color);
