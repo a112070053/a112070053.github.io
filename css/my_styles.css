@@ -129,9 +129,10 @@ ol.mylist.li:hover {
     
 }
 .bgcolor{
-    background-color: hsl(282, 100%, 97%)
+    background-color: hsl(0, 0%, 100%)
 
 }
+.
 /*table.mytable th{
     width: 80%;
     background-color: aqua;
