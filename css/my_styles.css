@@ -136,17 +136,17 @@ ol.mylist.li:hover {
     animation: flip-once 1s forwards;
 }
   
-  @keyframes flip {
-    0% {
-      transform: scaleX(1);
-    }
-    50% {
-      transform: scaleX(-1);
-    }
-    100%{
-        transform: scaleX(1);
-    }
+@keyframes flip {
+  0% {
+    transform: scaleX(1);
   }
+  50% {
+    transform: scaleX(-1);
+  }
+  100%{
+      transform: scaleX(1);
+  }
+}
 .heart{
     height: auto;
     width: 100% auto;
@@ -200,10 +200,10 @@ ol.mylist.li:hover {
     }
   }
   
-  .heart-word {
-    display: inline-block;
-    animation: heartbeat 1s;
-  }
+.heart-word{
+  display: inline-block;
+  animation: heartbeat 1s;
+}
   
 /*table.mytable th{
     width: 80%;
