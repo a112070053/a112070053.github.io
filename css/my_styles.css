@@ -40,7 +40,7 @@ span.purple{
     color: #8860fd;
 }
 span.blueblue{
-    color:#9573fc;
+    color:#8762f5;
     font-size: 30px;
 }
 span.infor{
@@ -125,6 +125,17 @@ ol.mylist.li:hover {
     overflow: auto;
     height: 300px;
     
+}
+.club{
+    background-color:#c6b3ff;
+    border: 2px solid rgb(176, 113, 248);
+    color: white;
+    width: 60%;
+    padding:15px;
+}
+.club:hover{
+    color: white;
+    background-color: #B197FC;
 }
 .bgcolor{
     background-image: url(../assets/img/bg.jpg)
